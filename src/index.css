@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+table {
+  width: 90%; /* Adjust width to give some space on the sides */
+  margin: 20px auto; /* Center the table with margin on left and right */
+  border-collapse: collapse; /* Ensure borders don't overlap */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px; /* Add more padding for a cleaner look */
+  border-bottom: 1px solid #ddd; /* Add border for rows */
+}
+
+th {
+  background-color: #4CAF50; /* Green header background */
+  color: white; /* White text color */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+tr:hover {
+  background-color: #ddd; /* Slightly darker background on hover */
+}
+
+td {
+  background-color: #fff; /* White background for cells */
+}
+
